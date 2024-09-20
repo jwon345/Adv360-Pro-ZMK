@@ -1,3 +1,33 @@
+macro_alt_5: macro_alt_5{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_5";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp NUMBER_5>;
+};
+macro_alt_4: macro_alt_4{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_4";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp NUMBER_4>;
+};
+macro_alt_3: macro_alt_3{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_3";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp NUMBER_3>;
+};
+macro_alt_2: macro_alt_2{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_2";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp NUMBER_2>;
+};
+macro_alt_1: macro_alt_1{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_1";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp NUMBER_1>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
