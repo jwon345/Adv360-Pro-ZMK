@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL      &kp N1      &kp N2      &kp N3      &kp N4      &kp N5              &trans                                                                 &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL         &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB       &kp Q       &kp W       &kp E       &kp R       &kp T               &none                                                                 &none      &kp Y   &kp KP_N7     &kp KP_N8  &kp LEFT_PARENTHESIS     &kp KP_MINUS   &kp BSLH
-   &kp ESC  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none  &kp LA(H)   &kp LA(J)     &kp LA(K)             &kp LA(L)      &kp KP_PLUS    &kp SQT
- &kp LSHFT       &kp Z       &kp X       &kp C       &kp V       &kp B                                 &kp HOME                  &kp PG_UP                            &kp N   &kp KP_N1     &kp KP_N2             &kp KP_N3     &kp KP_ENTER  &kp RSHFT
-     &mo 2   &kp GRAVE    &kp CAPS    &kp LEFT   &kp RIGHT                        &kp BSPC     &trans   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0                 &kp UP      &kp DOWN            &kp KP_DOT         &kp RBKT      &mo 2
+ &kp EQUAL      &kp N1      &kp N2      &kp N3      &kp N4      &kp N5              &trans                                                                     &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL         &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+   &kp TAB       &kp Q       &kp W       &kp E       &kp R       &kp T               &none                                                                     &none      &kp Y   &kp KP_N7     &kp KP_N8  &kp LEFT_PARENTHESIS     &kp KP_MINUS   &kp BSLH
+   &kp ESC  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)               &none  &kp LCTRL  &kp LALT                   &kp LGUI      &kp RCTRL      &none  &kp LA(H)   &kp LA(J)     &kp LA(K)             &kp LA(L)      &kp KP_PLUS    &kp SQT
+ &kp LSHFT       &kp Z       &kp X       &kp C       &kp V       &kp B                                 &kp HOME                  &kp PG_UP                                &kp N   &kp KP_N1     &kp KP_N2             &kp KP_N3     &kp KP_ENTER  &kp RSHFT
+     &mo 2   &kp GRAVE    &kp CAPS    &kp LEFT   &kp RIGHT                        &kp BSPC     &trans   &kp END                  &kp PG_DN  &kp LA(ENTER)  &kp KP_N0                 &kp UP      &kp DOWN            &kp KP_DOT         &kp RBKT      &mo 2
             >;
         };
 
