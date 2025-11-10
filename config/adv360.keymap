@@ -17,6 +17,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mmv {
+    acceleration-exponent = <2>;
+    trigger-period-ms = <10>;
+    time-to-max-speed-ms = <500>;
 };
 
 / {
@@ -40,9 +43,9 @@
             #binding-cells = <1>;
             x-input-code = <0>;
             y-input-code = <1>;
-            time-to-max-speed-ms = <0>;
-            acceleration-exponent = <2>;
-            trigger-period-ms = <8>;
+            time-to-max-speed-ms = <10>;
+            acceleration-exponent = <0>;
+            trigger-period-ms = <5>;
         };
     };
 
