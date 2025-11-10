@@ -23,9 +23,9 @@
     time-to-max-speed-ms = <300>;
 };
 &mmv_input_listener {
-    set_mouse_extra_slow {
+    6 {
         layers = <mouseMovementFast>;
-        input-processors = <&zip_xy_scaler 2 1>;
+        input-processors = <&zip_xy_scale 2 1>;
     };
 };
 / {
