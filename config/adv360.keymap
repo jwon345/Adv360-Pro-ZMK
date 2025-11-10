@@ -23,8 +23,8 @@
     time-to-max-speed-ms = <300>;
 };
 &mmv_input_listener {
-    6 {
-        layers = <mouseMovementFast>;
+    set_fast {
+        layers = <6>;
         input-processors = <&zip_xy_scale 2 1>;
     };
 };
