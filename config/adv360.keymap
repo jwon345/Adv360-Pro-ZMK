@@ -23,12 +23,15 @@
     time-to-max-speed-ms = <300>;
 };
 
-&mmv_input_listener {
-    set_fast {
-        layers = <6>;
-        input-processors = <&zip_xy_scale 2 1>;
-    };
-};
+/*
+* &mmv_input_listener {
+*     set_fast {
+*         layers = <6>;
+*         input-processors = <&zip_xy_scale 2 1>;
+*     };
+* };
+*/
+
 
 / {
     behaviors {
